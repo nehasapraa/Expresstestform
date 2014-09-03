@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+Created on : 03/09/2014, 12:33:12 PM
+Author     : Neha
+*/
+.imagecontainer{
+    display: none;
+    margin-left: 40%;
+    margin-top:10%;
+    position: absolute;
+    width: 200px;}
+.imagecontainer a{
+    padding: 5%;
+    margin-left: 3%;
+}
+.imagecontainer a:hover img{-moz-transform: translateY(-4%) scale(1.1);
+                            -ms-transform: translateY(-4%) scale(1.1);
+                            -webkit-transform: translateY(-3%) scale(1.05);
+                            transform: translateY(-4%) scale(1.1);}
+.expresstestform{
+    border: 2px solid;
+    border-radius: 25px;
+    width: 70%;
+
+
+    background-color: #CEBACF;
+    margin: auto;
+
+}
+.expresstestform p{margin-left:5%;}
+.expresstestform p input,select,textarea{margin-left:5%;
+                                         padding-right: 7%;
+}
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+
+}
+input.submitbtn{
+    text-align: center;
+    position: relative;
+    margin-left: 23%;
+}
+label.error{
+    color: red;
+    position: absolute;
+    margin-left: 1%;
+    text-align: left;}
+
+h2{font-size: 34px;
+   text-align: center}
+span.text_or{width: 530px;
+             float: left;
+             position: relative;}
+.showimagecontainer{width: 250px;}
+.or_options{position: absolute;
+
+            margin-left: 40%}
+.successmsg{
+    text-align: center;
+    color: green;
+    margin-left:40px;}
+.userentry{
+
+    margin-left: 2%;
+}
